@@ -6,7 +6,7 @@ import GithubSvg from "@/assets/github-mark.svg";
 export default function SocialLogin() {
   return (
     <>
-      <div className="w-full h-px bg-neutral-500 my-8"></div>
+      <div className="w-full h-px bg-neutral-500"></div>
       <div className="flex flex-col gap-4">
         <Link
           className="primary-btn flex h-10 items-center justify-center gap-3"
