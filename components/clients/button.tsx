@@ -9,7 +9,7 @@ interface FormBtnProps {
   loading?: boolean;
 }
 
-export default function FormBtn({
+export default function Button({
   children,
   type,
   disabled = false,
