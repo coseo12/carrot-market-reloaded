@@ -6,7 +6,7 @@ import {
   PASSWORD_REGEX_ERROR,
   USERNAME_MAX_LENGTH,
   USERNAME_MIN_LENGTH,
-} from "@/constants";
+} from "@/lib/constants";
 import { z } from "zod";
 
 const checkPassword = ({

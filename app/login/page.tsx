@@ -5,7 +5,7 @@ import Input from "@/components/clients/input";
 import SocialLogin from "@/components/clients/social-login";
 import { useFormState } from "react-dom";
 import { login } from "@/components/servers/login-actions";
-import { PASSWORD_MIN_LENGTH } from "@/constants";
+import { PASSWORD_MIN_LENGTH } from "@/lib/constants";
 
 export default function Login() {
   const [state, dispetch] = useFormState(login, null);

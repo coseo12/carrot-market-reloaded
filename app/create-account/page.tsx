@@ -4,7 +4,7 @@ import Button from "@/components/clients/button";
 import Input from "@/components/clients/input";
 import SocialLogin from "@/components/clients/social-login";
 import { createAccount } from "@/components/servers/sign-actions";
-import { PASSWORD_MIN_LENGTH } from "@/constants";
+import { PASSWORD_MIN_LENGTH } from "@/lib/constants";
 import { useFormState } from "react-dom";
 
 export default function CreateAccount() {
