@@ -1,10 +1,13 @@
 "use client";
 
-import Button from "@/components/clients/button";
-import Input from "@/components/clients/input";
-import SocialLogin from "@/components/clients/social-login";
+import Button from "@/components/common/clients/button";
+import Input from "@/components/common/clients/input";
+import SocialLogin from "@/components/app/create-account/clients/social-login";
 import { useFormState } from "react-dom";
-import { smsLogin, type ActionState } from "@/components/servers/sms-actions";
+import {
+  type ActionState,
+  smsLogin,
+} from "@/components/app/sms/servers/sms-actions";
 
 const initialState: ActionState = {
   token: false,
