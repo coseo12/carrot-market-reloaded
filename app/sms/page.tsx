@@ -2,7 +2,7 @@
 
 import Button from "@/components/common/clients/button";
 import Input from "@/components/common/clients/input";
-import SocialLogin from "@/components/app/create-account/clients/social-login";
+import SocialLogin from "@/components/app/login/clients/social-login";
 import { useFormState } from "react-dom";
 import {
   type ActionState,
